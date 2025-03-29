@@ -10,7 +10,7 @@
 <body>
     <header>
         <section class="header-title-line">
-            <h1>Daniel Staiger Fitnessmensch</h1>
+            <h1>Daniel Staiger Fitness Guru</h1>
             <button class="menu-button">
                 <div class="menu-icon"></div>
             </button>
@@ -20,12 +20,14 @@
                 <li><a href="#about">Über mich</a></li>
                 <li><a href="#services">Dienstleistungen</a></li>
                 <li><a href="#references">Referenzen</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#blog2">Slider Blog</a></li>
                 <li><a href="#contact">Kontakt</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="about" class="fullpage aboutme">
+    <section id="about" class="fullpage">
         <h2>Über mich</h2>
         <p>[Hier kommt eine Beschreibung]</p>
     </section>
@@ -38,6 +40,18 @@
     <section id="references" class="fullpage">
         <h2>Referenzen</h2>
         <p>[Hier könnten Kundenmeinungen stehen]</p>
+    </section>
+
+    <section id="blog" class="fullpage">
+        <h2>Mein Fitness Blog</h2>
+        <div id="blog-container"></div>
+    </section>
+
+    <section id="blog2" class="fullpage">
+        <h2>Mein Fitness Blog Slider</h2>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+        <div class="slides" id="blog-container-slides"></div>
     </section>
 
     <section id="contact" class="fullpage">
