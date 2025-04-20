@@ -21,12 +21,12 @@
                 <li><a href="#services">Dienstleistungen</a></li>
                 <li><a href="#references">Referenzen</a></li>
                 <li><a href="#blog">Blog</a></li>
-                <li><a href="#blog2">Slider Blog</a></li>
                 <li><a href="#contact">Kontakt</a></li>
+                <li><a href="#datenschutz_impressum">Impressum & Datenschutz</a></li>
             </ul>
         </nav>
     </header>
-
+    
     <section id="about" class="fullpage">
         <h2>Über mich</h2>
         <p>[Hier kommt eine Beschreibung]</p>
@@ -47,32 +47,22 @@
         <div id="blog-container"></div>
     </section>
 
-    <section id="blog2" class="fullpage">
-        <h2>Mein Fitness Blog Slider</h2>
-        <button class="prev" onclick="prevSlide()">&#10094;</button>
-        <button class="next" onclick="nextSlide()">&#10095;</button>
-        <div class="slides" id="blog-container-slides"></div>
-    </section>
-
-    <section id="contact" class="fullpage">
+    <section id="contact" class="fullpage contact-section">
         <h2>Kontakt</h2>
-        <p>Kontaktiere mich auf <a href="https://instagram.com/" target="_blank">Instagram</a> oder über das Formular:</p>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">E-Mail:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Nachricht:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Senden</button>
-        </form>
+        <div class="contact-options">
+            <a href="https://www.instagram.com/staigerfitness" class="contact-card insta">
+              <img src="assets/instagram.png" alt="Instagram Icon">
+              <span>@staigerfitness</span>
+            </a>
+            <a href="mailto:staigerfitness.info@gmail.com" class="contact-card email">
+              <img src="assets/mail.png" alt="E-Mail Icon">
+              <span>staigerfitness.info@gmail.com</span>
+            </a>
+          </div>
     </section>
 
-    <footer>
-        <a href="#impressum">Impressum</a> | <a href="#datenschutz">Datenschutz</a>
-    </footer>
+    <section id="datenschutz_impressum" class="fullpage">
+        <h2>Impressum und Datenschutz</h2>
+    </section>
 </body>
 </html>

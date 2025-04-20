@@ -12,20 +12,22 @@
 
 html {
     scroll-behavior: smooth;
-    font-family: Arial, sans-serif;
+    font-family: Arial sans-serif monospace;
+    overflow-x: hidden;
 }
 
 body {
-
     scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    min-height: 100vh;
     display: flex;
     flex-flow: column nowrap;
 }
 
 h1{
     font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+    text-decoration: underline;
 }
 
 header {
@@ -146,15 +148,49 @@ nav a:hover, nav a:focus{
     scroll-snap-align: start;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
     background: #b8a9a9;
-    padding-top: 100px;
-    
+    padding-top: 100px;   
 }
 
+.contact-section {
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.contact-options {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+  
+  .contact-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    background-color: rgb(160, 144, 144);
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .contact-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .contact-card img {
+    width: 32px;
+    height: 32px;
+  }
 
 .article { 
     width: 100vw;
@@ -181,14 +217,3 @@ nav a:hover, nav a:focus{
     display: block; 
 }
 
-.prev {
-    position: absolute;
-    left: 10px;
-    font-size: 2rem;
-}
-
-.next {
-    position: absolute;
-    right: 10px;
-    font-size: 2rem;
-}
