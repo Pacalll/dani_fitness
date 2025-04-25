@@ -1,68 +1,110 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daniel Staiger Personal Fitness Coach</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <section class="header-title-line">
-            <h1>Daniel Staiger Fitness Guru</h1>
-            <button class="menu-button">
-                <div class="menu-icon"></div>
-            </button>
-        </section>
-        <nav>
-            <ul>
-                <li><a href="#about">Über mich</a></li>
-                <li><a href="#services">Dienstleistungen</a></li>
-                <li><a href="#references">Referenzen</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Kontakt</a></li>
-                <li><a href="#datenschutz_impressum">Impressum & Datenschutz</a></li>
-            </ul>
-        </nav>
+      <section class="header-title-line">
+        <h1>Daniel Staiger Fitness Guru</h1>
+        <button class="menu-button" aria-label="Menü öffnen">
+          <div class="menu-icon"></div>
+        </button>
+      </section>
+      <nav>
+        <ul>
+          <li><a href="#about">Über mich</a></li>
+          <li><a href="#services">Dienstleistungen</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+          <li><a href="#datenschutz_impressum">Impressum & Datenschutz</a></li>
+        </ul>
+      </nav>
     </header>
-    
-    <section id="about" class="fullpage">
-        <h2>Über mich</h2>
+    <main>
+      <section id="about" class="fullpage">
+        <h2></h2>
+        <img class="profilpic" src="assets/profil.jpeg" title="Profilbild" alt="Profil Picture" loading="lazy">
         <p>[Hier kommt eine Beschreibung]</p>
-    </section>
+      </section>
 
-    <section id="services" class="fullpage">
+      <section id="services" class="fullpage">
         <h2>Dienstleistungen</h2>
         <p>[Welche Services werden angeboten]</p>
-    </section>
+      </section>
 
-    <section id="references" class="fullpage">
-        <h2>Referenzen</h2>
-        <p>[Hier könnten Kundenmeinungen stehen]</p>
-    </section>
-
-    <section id="blog" class="fullpage">
+      <section id="blog" class="fullpage">
         <h2>Mein Fitness Blog</h2>
         <div id="blog-container"></div>
-    </section>
+      </section>
 
-    <section id="contact" class="fullpage contact-section">
+      <section id="contact" class="fullpage section-contact">
         <h2>Kontakt</h2>
         <div class="contact-options">
-            <a href="https://www.instagram.com/staigerfitness" class="contact-card insta">
-              <img src="assets/instagram.png" alt="Instagram Icon">
-              <span>@staigerfitness</span>
-            </a>
-            <a href="mailto:staigerfitness.info@gmail.com" class="contact-card email">
-              <img src="assets/mail.png" alt="E-Mail Icon">
-              <span>staigerfitness.info@gmail.com</span>
-            </a>
-          </div>
-    </section>
+          <a
+            href="https://www.instagram.com/staigerfitness"
+            class="contact-card insta"
+          >
+            <img src="assets/instagram.png" alt="Instagram Icon" />
+            <span>@staigerfitness</span>
+          </a>
+          <a
+            href="mailto:staigerfitness.info@gmail.com"
+            class="contact-card email"
+          >
+            <img src="assets/mail.png" alt="E-Mail Icon" />
+            <span>staigerfitness.info@gmail.com</span>
+          </a>
+        </div>
+      </section>
 
-    <section id="datenschutz_impressum" class="fullpage">
-        <h2>Impressum und Datenschutz</h2>
-    </section>
-</body>
+      <section id="datenschutz_impressum" class="fullpage sectiondatenschutz">
+        <h2>Impressum</h2>
+        <strong>Angaben gemäß § 5 TMG</strong>
+        <strong>Daniel Staiger</strong>
+        <p>Beispieladresse</p>
+        <p>12345 Berlin</p>
+        <strong>Kontakt:</strong>
+        <address>Email: <a href="staigerfitness.info@gmail.com">staigerfitness.info@gmail.com</a></address>
+        <address>Webseite: <a href="www.fitnessdani.de">www.fitnessdani.de</a></address>
+        <strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong>
+        <p>Daniel Staiger</p>
+        <p>Beispieladresse</p>
+        <p>Berlin</p>
+        <strong>Berufliche Angaben</strong>
+        <p>Selbstständig tätig als Fitnesscoach mit Zertifizierung.</p>
+        <h2>Datenschutzerklärung</h2>
+        <ol>
+          <li>Allgemeine Hinweise</li>
+          <p>Der Schutz deiner persönlichen Daten ist uns ein wichtiges Anliegen.
+             Diese Webseite erhebt keine personenbezogenen Daten automatisch und nutzt keine
+              externen Dienste (z. B. Google Analytics, Fonts, etc.).
+          </p>
+          <li>Verantwortliche Stelle</li>
+          <p>Verantwortlich für die Datenverarbeitung auf dieser Webseite:</p>
+          <strong>Daniel Staiger</strong>
+          <p>Beispieladresse</p>
+          <p>Berlin</p>
+          <address>Email: <a href="staigerfitness.info@gmail.com">staigerfitness.info@gmail.com</a></address>
+          <li>Erhebung und Speicherung personenbezogener Daten</li>
+          <p>Diese Website speichert selbst keine personenbezogenen Daten.</p>
+          <li>Kontaktaufnahme</li>
+          <p>Wenn du per E-Mail oder über den bereitgestellten Instagram-Link Kontakt aufnimmst, erfolgt dies freiwillig. Die übermittelten Daten werden ausschließlich zur Bearbeitung der Anfrage genutzt und nicht an Dritte weitergegeben.</p>
+          <li>Keine weiteren Dienste</li>
+            <ul>
+              <li>Kein Newsletter</li>
+              <li>Kein Online-Shop</li>
+              <li>Keine Cookies</li>
+              <li>Keine eingebetteten Drittanbieter(z.B. YouTube, Google Maps)</li>
+            </ul>
+          <li>Deine Rechte</li>
+          <p>Du hast das Recht auf Auskunft, Berichtigung, Löschung und Einschränkung der Verarbeitung deiner personenbezogenen Daten. Wende dich dafür per Mail an die oben genannte Kontaktadresse.</p>
+        </ol>
+      </section>
+    </main>
+  </body>
 </html>
