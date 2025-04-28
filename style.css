@@ -199,6 +199,50 @@ nav a:focus {
     min-height: 100vh;
 }
 
+.about-container-pic{
+    display: flex;
+    align-items: center;
+    font-size: var(--SPACING-L);
+    margin: var(--SPACING-L);
+}
+
+.service {
+    margin: 0 auto;
+    line-height: 1.6;
+    color: var(--MAIN-FCOLOR);
+}
+
+.service h2, 
+.service h3 {
+  text-align: center;
+  margin: var(--SPACING-M);
+}
+
+.service-slogan{
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: var(--SPACING-XL);
+}
+
+.service-list, .service-target-group{
+    list-style: none;
+    padding: 0;
+    margin: var(--SPACING-M) 0;
+}
+
+.service-list li, .service-target-group li{
+    margin-bottom: var(--SPACING-L);
+    padding-left: var(--SPACING-L);
+    position: relative; 
+}
+
+.service-list li::before, .service-target-group li::before {
+    content: "✔️";
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
 .section-contact {
     text-align: center;
 }
@@ -281,10 +325,17 @@ nav a:focus {
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
-    padding: var(--SPACING-XL);
+    padding-left: var(--SPACING-XL);
 }
 
 @media (max-width: 600px){
+
+
+
+    .service-slogan{
+        font-size: var(--SPACING-M);
+    }
+
     .contact-options{
         flex-direction: column;
         gap: var(--SPACING-M);
@@ -314,10 +365,17 @@ nav a:focus {
     }
 }
 
-@media (max-width: 900px) {  
+@media (max-width: 900px) {
+    
+
+
     nav ul {
       flex-direction: column;
       gap: var(--SPACING-S);
+    }
+
+    .service-slogan {
+        font-size: var(--SPACING-M);
     }
   
     .article {
