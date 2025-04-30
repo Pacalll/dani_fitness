@@ -1,69 +1,269 @@
 [
-    {
-      "artikel_date": "2025-03-29",
-      "artikel_headline": "1. Blogeintrag",
-      "artikel_content": [
-        {
-          "type": "text",
-          "content": "Ein weiterer Abschnitt Text, der nach Belieben wiederholt werden kann."
-        },
-        {
-          "type": "img",
-          "content": "images/blog1.jpg"
-        },
-        {
-          "type": "text",
-          "content": "Zusätzlicher Text nach dem Bild."
-        },
-        {
-          "type": "img",
-          "content": "images/blog2.jpg"
-        }
-      ]
-    },
-    {
-      "artikel_date": "2025-03-30",
-      "artikel_headline": "2. Blogeintrag",
-      "artikel_content": [
-        {
-          "type": "img",
-          "content": "images/blog1-extra.jpg"
-        },
-        {
-          "type": "text",
-          "content": "Dieser Text kommt nach dem Bild."
-        },
-        {
-          "type": "text",
-          "content": "Noch ein Textabschnitt, der nach Belieben wiederholt werden kann."
-        },
-        {
-            "type": "text",
-            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        }
-      ]
-    },
-    {
-        "artikel_date": "2025-03-30",
-        "artikel_headline": "3. Blogeintrag",
-        "artikel_content": [
-          {
-            "type": "img",
-            "content": "images/blog1-extra.jpg"
-          },
-          {
-            "type": "text",
-            "content": "Dieser Text kommt nach dem Bild."
-          },
-          {
-            "type": "text",
-            "content": "Noch ein Textabschnitt, der nach Belieben wiederholt werden kann."
-          },
-          {
-              "type": "text",
-              "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-          }
-        ]
+  {
+    "artikel_date": "2025-04-28",
+    "artikel_headline": "Wie viel Krafttraining braucht es wirklich?",
+    "artikel_content": [
+      {
+        "type": "text",
+        "content": "Du willst Muskeln aufbauen, aber nicht dein halbes Leben im Gym verbringen? Gute Nachrichten: Du musst nicht! Tatsächlich gibt es eine magische Grenze - die sogenannte "
+      },
+      {
+        "type": "fat_inline",
+        "content": " \"Minimum Effective Dose\""
+      },
+      {
+        "type": "text_for_prev_paragraph",
+        "content": " (MED) -, die dir Gains bringt, ohne dass du dich in einen wandelnden Proteinshake verwandeln musst. Aber wie wenig ist genug? Und wann ist weniger tatsächlich mehr? Genau das klären wir hier! Gibt es eine Minimalgrenze, mit der man trotz wenig Zeit oder Motivation noch ordentlich Fortschritte macht? Die Antwort ist: Ja! Und nein, das bedeutet nicht, dass du einfach nur mit den Gewichten kuscheln musst."
+      },
+      {
+        "type": "text",
+        "content": " Studien zeigen, dass bereits überraschend geringe Trainingsvolumina beachtliche Kraftzuwächse ermöglichen. Das Konzept der MED basiert darauf, dass der Körper auf minimale, aber gezielte Reize reagiert. Man muss also nicht endlos Sätze und Wiederholungen runterspulen - es reicht, genau die richtigen Impulse zu setzen. Und das ist besonders praktisch, wenn dein Kalender aussieht wie ein Tetris-Spiel auf Speed oder du einfach keinen Bock hast, sechs Tage die Woche im Fitnessstudio zu verbringen"
+      },
+      {
+        "type": "subheadline",
+        "content": "Die Wissenschaft hinter der Minimal Effective Dose"
+      },
+      {
+        "type": "text_new_line_after",
+        "content": "Es gibt eine Menge Mythen im Krafttraining."
+      },
+      {
+        "type": "text_new_line_after",
+        "content": "\"No pain, no gain\"? Bullshit"
+      },
+      {
+        "type": "text_new_line_after",
+        "content": "\"Mehr ist immer besser\"? Nope."
+      },
+      {
+        "type": "text",
+        "content": "Die Realität: Dein Körper passt sich an, wenn du ihm den richtigen Reiz gibst - und das kann manchmal überraschend wenig sein. Studien zeigen, dass sogar extrem geringe Trainingsvolumina beeindruckende Kraft- und Muskelzuwächse ermöglichen können. Perfekt für alle, die nicht den ganzen Tag Eisen stemmen wollen"
+      },
+      {
+        "type": "subheadline",
+        "content": "Was sagt die Forschung?"
+      },
+      {
+        "type": "text",
+        "content": "In einer Studie von Hermann et al. wurde untersucht, wie viel (oder wie wenig) Training nötig ist, um Kraft zu steigern. Teilnehmer waren nicht nur Anfänger, sondern auch erfahrene Kraftsportler - schließlich profitieren Anfänger oft schon von einem kräftigen Blick aufs Rack. Das Volumen wurde schrittweise angepasst, um herauszufinden, wo die Untergrenze für sinnvolles Training liegt. Die Ergebnisse waren spannend: Selbst mit nur wenigen wöchentlichen Sätzen pro Muskelgruppe konnten die Teilnehmer signifikante Fortschritte erzielen. Statt sinnloses Pumpen gab es hier eine klare Struktur: Die Probanden trainierten mit 70-85 % ihres 1RM in komplexen Grundübungen wie Kniebeugen, Bankdrücken und Kreuzheben - und zwar mit variierenden Satzzahlen. Das Ziel: herausfinden, ab wann der Trainingsreiz so klein wird, dass keine Fortschritte mehr entstehen."
+      },
+      {
+        "type": "subheadline",
+        "content": "Das absolute Minimum für Kraftzuwächse?"
+      },
+      { "type": "ul_start" },
+
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Freizeitsportler:" },
+      { "type": "li_text", "content": " 2-3 Sätze mit 6-12 Wiederholungen pro Übung, nah ans Muskelversagen, reichen für spürbare Kraftzuwächse." },
+      { "type": "li_end" },
+
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Powerlifter:" },
+      { "type": "li_text", "content": " 3-6 Sätze mit 1-5 Wiederholungen pro Woche pro Grundübung bei hoher Intensität (0-3 Reps in Reserve) bringen innerhalb von 6-12 Wochen deutliche Fortschritte." },
+      { "type": "li_end" },
+
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Ultra-Minimalisten:" },
+      { "type": "li_text", "content": " Selbst 1-3 Ein-Wiederholungs-Sätze (Singles) pro Grundübung pro Woche haben einen Effekt - aber eben nur einen kleinen." },
+      { "type": "li_end" },
+
+      { "type": "ul_end" },
+      {
+        "type": "text",
+        "content": "Manche Athleten konnten mit minimalem Volumen über 18 kg zu ihrem Powerlifting-Total hinzufügen - kein Witz! Wenn du es also clever machst, kannst du mit wenig Aufwand viel rausholen."
+      },
+      {
+        "type": "subheadline",
+        "content": "Muskelaufbau (Hypertrophie) - Was ist das Minimum?"
+      },
+      {
+        "type": "text",
+        "content": "Hypertrophie - also der Traum von dicken Armen und einem massiven Rücken - wird oft mit ewig langen Trainingseinheiten gleichgesetzt. Die gängige Meinung: Muskelaufbau braucht hohes Volumen und endlose Sets. Doch Studien beweisen das Gegenteil. Hermann et al. fanden heraus, dass selbst EIN EINZIGER Satz pro Übung Muskelwachstum bewirken kann - ja, du hast richtig gelesen! In ihrer Untersuchung absolvierten trainierte Sportler nur vier Sätze pro Muskelgruppe pro Woche und erzielten nach acht Wochen immer noch Muskelzuwächse (2-10 % mehr Muskelmasse).\n Weniger ist manchmal wirklich mehr! Klar, mehr Volumen bringt langfristig bessere Ergebnisse, aber wenn du wenig Zeit hast, ist das eine solide Option."
+      },
+      {
+        "type": "text",
+        "content": "Hier zur besseren Veranschaulichung das Verhältnis zwischen Trainingsvolumen und zeitlichem Aufwand in Bezug auf die Effizienz des Muskelaufbaus:"
+      },
+      {
+        "type": "img",
+        "content": "images/blog1_img1.png"
+      },
+      {
+        "type": "subheadline",
+        "content": "Effizienzskala:"
+      },
+      { "type": "ul_start" },
+
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Minimal Effective Dose:" },
+      { "type": "li_text", "content": " 4 Sätze" },
+      { "type": "li_end" },
+
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Höhere Effizienz:" },
+      { "type": "li_text", "content": " 5 - 10 Sätze" },
+      { "type": "li_end" },
+
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Mittlere Effizienz:" },
+      { "type": "li_text", "content": " 11 - 18 Sätze" },
+      { "type": "li_end" },
+
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Niedrigere Effizienz:" },
+      { "type": "li_text", "content": " 19 - 29 Sätze" },
+      { "type": "li_end" },
+
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Niedrigste Effizienz:" },
+      { "type": "li_text", "content": " 30 - 42 Sätze" },
+      { "type": "li_end" },
+
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Unklare Effizienz:" },
+      { "type": "li_text", "content": " 42+ Sätze" },
+      { "type": "li_end" },
+
+      { "type": "ul_end" },
+
+      {
+        "type": "text",
+        "content": "Das bedeutet: "
+      },
+      {
+        "type": "fat_inline",
+        "content": "Ja, du kannst mit wenig Volumen Muskeln aufbauen."
+      },
+      {
+        "type": "text_for_prev_paragraph",
+        "content": " Aber jeder zusätzliche Fortschritt erfordert exponentiell mehr Aufwand. Stell dir vor, du füllst eine Flasche Wasser - die ersten Schlucke sind schnell drin, aber danach dauert es immer länger, die letzten Tropfen reinzuquetschen."
+      },
+      {
+        "type": "subheadline",
+        "content": "Praktische Anwendung: Sollte ich nur noch das Minimum trainieren?"
+      },
+      {
+        "type": "text",
+        "content": "Kommt drauf an. Wenn du Zeit und Bock hast, dann baller ruhig mehr Volumen. Aber wenn du wenig Zeit hast oder einfach effizient trainieren willst, ist die Minimum Effective Dose dein bester Freund. Hier sind ein paar Szenarien, in denen weniger wirklich mehr ist:"
+      },
+
+      { "type": "ul_start" },
+
+      { "type": "li_start" },
+      { "type": "li_text", "content": " Wenn du wenig Zeit hast (Arbeit, Familie, Netflix-Serien-Marathon)." },
+      { "type": "li_end" },
+
+      { "type": "li_start" },
+      { "type": "li_text", "content": " Wenn du dich auf andere sportliche Ziele konzentrierst." },
+      { "type": "li_end" },
+
+      { "type": "li_start" },
+      { "type": "li_text", "content": " Wenn du nach Verletzungen oder in stressigen Phasen dein Training aufrechterhalten willst." },
+      { "type": "li_end" },
+
+      { "type": "ul_end" },
+      {
+        "type": "subheadline",
+        "content": "Langfristige Auswirkungen: Kann man mit Minimaltraining dauerhaft Gains halten?"
+      },
+      {
+        "type": "text",
+        "content": "Ja! Untersuchungen zeigen, dass Kraft und Muskelmasse auch über Monate mit reduziertem Volumen erhalten bleiben - solange die Intensität hoch genug ist. Eine Studie von Spiering et al. (2021) ergab, dass Athleten bis zu 15 Wochen ihre Kraft halten konnten, selbst wenn sie ihr Trainingsvolumen um zwei Drittel reduzierten. Bedeutet: Du musst nicht ständig ballern, um stark zu bleiben. So vielversprechend die Ergebnisse im Review von Spiering et al. (2021) auch sind, sollte man sie dennoch mit Vorsicht betrachten. Die Studie umfasste ausschließlich Trainingsanfänger. Bei fortgeschrittenen Athleten könnten andere Prinzipien gelten, die noch weiterer Forschung bedürfen."
+      },
+      {
+        "type": "text",
+        "content": "Natürlich gibt es individuelle Faktoren:"
+      },
+
+      { "type": "ul_start" },
+
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Alter:" },
+      { "type": "li_text", "content": "  Ältere Sportler benötigen oft etwas mehr Volumen, um Muskeln zu erhalten." },
+      { "type": "li_end" },
+
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Genetik:" },
+      { "type": "li_text", "content": " Manche Leute bauen Muskeln auf, während sie nur Proteinshakes angucken - andere müssen mehr tun." },
+      { "type": "li_end" },
+
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Trainingshistorie:" },
+      { "type": "li_text", "content": " Fortgeschrittene Athleten kommen oft mit weniger Training aus, weil sie über Jahre Anpassungen aufgebaut haben und eine zielführende Technik entwickelt haben. Ab einem gewissen Punkt werden fortgeschrittene Athleten allerdings nicht um mehr Volumen herum kommen, wenn sie sich weiter steigern wollen. Leider fehlt es hierzu noch an guter Forschung" },
+      { "type": "li_end" },
+
+      { "type": "ul_end" },
+
+      {
+        "type": "subheadline",
+        "content": "Fazit: Weniger ist oft genug"
+      },
+      {
+        "type": "text",
+        "content": "Die Minimum Effective Dose zeigt uns, dass wir nicht ewig im Gym schuften müssen, um Fortschritte zu machen. Klar, wenn du Arnold werden willst, brauchst du mehr als 4 Sätze pro Woche. Aber für viele Menschen ist weniger Training eine realistische und nachhaltige Lösung z.B. wenn das Leben mal chaotisch ist oder du einfach nicht mehr Zeit investieren willst, ist es eine ziemlich clevere Strategie. Weniger kann tatsächlich mehr sein - solange die Intensität stimmt und du es richtig machst."
+      },
+      {
+        "type": "text",
+        "content": "Falls du wenig Zeit hast, aber trotzdem Gains willst – probier’s aus. Weniger kann mehr sein, solange du smart trainierst. Und wenn du doch mal Lust auf ein stundenlanges Workout hast? Dann hau rein – aber mach’s, weil du es willst, nicht weil du musst! Wichtig ist nur, dass du für dich das richtige Maß findest und langfristig trotzdem an einem."
+      },
+      {
+        "type": "fat_inline",
+        "content": "progressiven Overload "
+      },
+      {
+        "type": "text_for_prev_paragraph",
+        "content": "dranbleibst. Am Ende zählt nicht, wie oft du trainierst, sondern wie schlau du es machst – und ob du es langfristig durchziehst."
+      },
+      {
+        "type": "fat_inline",
+        "content": " Ziel sollte es sein, ein Trainingsvolumen zu wählen, das nachhaltig in den Alltag integriert werden kann und kontinuierliche Fortschritte ermöglicht."
+      },
+      {
+        "type": "text",
+        "content": "Bei mir selbst war das in den letzten sechs Monaten ein echtes Aha-Erlebnis. Ich habe mich vor allem auf Mobility und Stretching konzentriert, weil meine Beweglichkeit echt mies war und noch ein Baustelle ist. Dadurch musste ich mein Krafttraining auf ein Minimum runterfahren – und weißt du was? Trotz weniger Volumen bin ich in den Verbundübungen stärker geworden. Das zeigt mir einmal mehr: Manchmal braucht es gar nicht viel, um weiterzukommen. Man muss nur smart trainieren, konsequent dran bleiben und auf Erholung achten. Also hör auf, dir den Kopf zu zerbrechen, und geh einfach trainieren. Warum nicht einfach mal testen? Setz dir für die nächsten 6 Wochen ein Minimalprogramm, tracke deine Fortschritte und schau, was passiert – vielleicht bist du ja überrascht, wie wenig es manchmal braucht, um stärker zu werden."
+      },
+      {
+        "type": "text",
+        "content": "Mach’s schlau, nicht kompliziert – Daniel"
+      },
+      {
+        "type": "subheadline",
+        "content": "Quellen:"
+      },
+      {
+        "type": "text",
+        "content": "Hermann, T., Mohan, A. E., Enes, A., Sapuppo, M., Piñero, A., Zamanzadeh, A., Roberts, M., Coleman, M., Androulakis-Korakakis, P., Wolf, M., Refalo, M., Swinton, P. A., & Schoenfeld, B. J. (2024). Without fail: Muscular adaptations in single set resistance training performed to failure or with repetitions-in-reserve [Preprint, nicht peer-reviewed]. Society for Transparency, Openness and Replication in Kinesiology (STORK)." 
+      },
+      {
+        "type": "inline_link",
+        "href": " https://storkinesiology.org/"
+      },
+      {
+        "type": "text",
+        "content": "Androulakis-Korakakis, P., Michalopoulos, N., Fisher, J. P., Keogh, J., Loenneke, J. P., Helms, E., Wolf, M., Nuckols, G., & Steele, J. (2021). The minimum effective training dose required for 1RM strength in powerlifters. Frontiers in Sports and Active Living, 3, 713655."
+      },
+      {
+        "type": "inline_link",
+        "href": " https://doi.org/10.3389/fspor.2021.713655"
+      },
+      {
+        "type": "text",
+        "content": "Androulakis-Korakakis, P., Fisher, J. P., & Steele, J. (2020). The minimum effective training dose required to increase 1RM strength in resistance-trained men: A systematic review and meta-analysis. Sports Medicine, 50(4), 751-765."
+      },
+      {
+        "type": "inline_link",
+        "href": " https://doi.org/10.1007/s40279-019-01236-0"
+      },
+      {
+        "type": "text",
+        "content": "Spiering, B. A., Mujika, I., Sharp, M. A., & Foulis, S. A. (2021). Maintaining physical performance: The minimal dose of exercise needed to preserve endurance and strength over time. Journal of Strength and Conditioning Research, 35(5), 1449–1458."
+      },
+      {
+        "type": "inline_link",
+        "href": " https://doi.org/10.1519/JSC.0000000000003964"
       }
-  ]
-  
+
+    ]
+  }
+]

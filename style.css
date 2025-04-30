@@ -7,9 +7,9 @@
 :root {
     --HEADER-BGCOLOR: #333;
     --HEADER-FCOLOR: whitesmoke;
-    --MAIN-BGCOLOR: #463a3a;
+    --MAIN-BGCOLOR: #ECE2D0;
     --MAIN-FCOLOR: black;
-    --CONTACTCARD-BGCOLOR: #a09090;
+    --CONTACTCARD-BGCOLOR: #c9bda5;
     --CONTACTCARD-FCOLOR: black;
 
     --SPACING-S: 0.5rem;
@@ -193,15 +193,17 @@ nav a:focus {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    text-align: center;
     background: var(--MAIN-BGCOLOR);
     padding-top: 5rem;
+    padding-right: var(--SPACING-M);
+    padding-left: var(--SPACING-M);
     min-height: 100vh;
 }
 
 .about-container-pic{
     display: flex;
     align-items: center;
+    gap: var(--SPACING-M);
     font-size: var(--SPACING-L);
     margin: var(--SPACING-L);
 }
@@ -280,12 +282,6 @@ nav a:focus {
     height: 32px;
 }
 
-.article {
-    max-width: 90%;
-    padding: var(--SPACING-M);
-    margin: auto;
-}
-
 .article-date {
     font-size: 0.9em;
     color: var(--MAIN-FCOLOR);
@@ -295,7 +291,6 @@ nav a:focus {
 .article-text {
     font-size: var(--SPACING-M);
     color: var(--MAIN-FCOLOR);
-    text-align: left;
     line-height: 1.6;
 }
 
