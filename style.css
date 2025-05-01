@@ -7,10 +7,13 @@
 :root {
     --HEADER-BGCOLOR: #333;
     --HEADER-FCOLOR: whitesmoke;
-    --MAIN-BGCOLOR: #ECE2D0;
+    --ABOUT-TEXT-BGCOLOR: #f4cccd;
+    --ABOUT-TEXT-FCOLOR: #df799e;
+    --MAIN-BGCOLOR: #d6eaf8;
     --MAIN-FCOLOR: black;
-    --CONTACTCARD-BGCOLOR: #c9bda5;
+    --CONTACTCARD-BGCOLOR: #88a0aa;
     --CONTACTCARD-FCOLOR: black;
+
 
     --SPACING-S: 0.5rem;
     --SPACING-M: 1rem;
@@ -232,18 +235,38 @@ nav a:focus {
     margin: var(--SPACING-M) 0;
 }
 
+.service-list li{
+    display: flex;
+    align-items: flex-start;
+    gap: var(--SPACING-M);
+    margin-bottom: var(--SPACING-L);
+}
+
+.service-list div {
+    max-width: 100%;
+    font-size: var(--SPACING-M);
+    line-height: 1.6;
+    color: var(--MAIN-FCOLOR)
+}
+
 .service-list li, .service-target-group li{
     margin-bottom: var(--SPACING-L);
     padding-left: var(--SPACING-L);
     position: relative; 
 }
 
-.service-list li::before, .service-target-group li::before {
+.service-target-group li::before {
     content: "✔️";
     position: absolute;
     left: 0;
     top: 0;
-  }
+}
+
+.service-list-bullet-img{
+    width: 100px;
+    height: auto;
+    flex-shrink: 0;
+}
 
 .section-contact {
     text-align: center;
@@ -302,12 +325,16 @@ nav a:focus {
 }
 
 .profilpic {
-    max-width: 50%;
-    max-width: 400px;
+    width: clamp(200px, 40vw, 500px);
     height: auto;
     border-radius: 25%;
     margin-bottom: var(--SPACING-M);
     filter: brightness(90%);
+}
+
+.about-text{
+    font-size: var(--SPACING-L);
+    color: var(--ABOUT-TEXT-FCOLOR);
 }
 
 .sectiondatenschutz h2 {
@@ -325,7 +352,16 @@ nav a:focus {
 
 @media (max-width: 600px){
 
+    :root{
+        --SPACING-S: 0.35rem;
+        --SPACING-M: 0.7rem;
+        --SPACING-L: 1.25rem;
+        --SPACING-XL: 1.5rem
+    }
 
+    .service-list-bullet-img{
+        width: 50px;
+    }
 
     .service-slogan{
         font-size: var(--SPACING-M);
