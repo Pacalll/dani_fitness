@@ -7,8 +7,8 @@
 :root {
     --HEADER-BGCOLOR: #333;
     --HEADER-FCOLOR: whitesmoke;
-    --ABOUT-TEXT-BGCOLOR: #f4cccd;
-    --ABOUT-TEXT-FCOLOR: #df799e;
+    --ABOUT-TEXT-BGCOLOR: rgba(214, 219, 223, 0.8);
+    --ABOUT-TEXT-FCOLOR: black;
     --MAIN-BGCOLOR: #d6eaf8;
     --MAIN-FCOLOR: black;
     --CONTACTCARD-BGCOLOR: #88a0aa;
@@ -18,7 +18,8 @@
     --SPACING-S: 0.5rem;
     --SPACING-M: 1rem;
     --SPACING-L: 1.5rem;
-    --SPACING-XL: 2rem
+    --SPACING-XL: 2rem;
+    --SPACING-XXXL-N: -5rem
 }
 
 
@@ -235,18 +236,22 @@ nav a:focus {
     margin: var(--SPACING-M) 0;
 }
 
-.service-list li{
+.service-list li, .service-target-group li{
     display: flex;
     align-items: flex-start;
     gap: var(--SPACING-M);
     margin-bottom: var(--SPACING-L);
 }
 
-.service-list div {
+.service-list div, .service-target-group p {
     max-width: 100%;
     font-size: var(--SPACING-M);
     line-height: 1.6;
     color: var(--MAIN-FCOLOR)
+}
+
+.service-target-group p {
+    margin-top: var(--SPACING-XL);
 }
 
 .service-list li, .service-target-group li{
@@ -255,14 +260,7 @@ nav a:focus {
     position: relative; 
 }
 
-.service-target-group li::before {
-    content: "✔️";
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.service-list-bullet-img{
+.service-list-bullet-img, .service-target-group-bullet-img{
     width: 100px;
     height: auto;
     flex-shrink: 0;
@@ -332,9 +330,15 @@ nav a:focus {
     filter: brightness(90%);
 }
 
-.about-text{
-    font-size: var(--SPACING-L);
+.about-text {
+    position: relative;
+    z-index: 1;
+    margin-left: var(--SPACING-XXXL-N); 
+    background:  var(--ABOUT-TEXT-BGCOLOR);
     color: var(--ABOUT-TEXT-FCOLOR);
+    padding: var(--SPACING-M);
+    font-size: var(--SPACING-L);
+    border-radius: 10px;
 }
 
 .sectiondatenschutz h2 {
@@ -356,7 +360,8 @@ nav a:focus {
         --SPACING-S: 0.35rem;
         --SPACING-M: 0.7rem;
         --SPACING-L: 1.25rem;
-        --SPACING-XL: 1.5rem
+        --SPACING-XL: 1.5rem;
+        --SPACING-XXXL-N: -3rem;
     }
 
     .service-list-bullet-img{

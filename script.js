@@ -12,7 +12,7 @@ async function loadBlog(){
         const container = document.getElementById("blog-container");
 
         data.forEach(blogarticle => {
-            const articleElement = document.createElement("article");
+            /* const articleElement = document.createElement("article");
             const headlineElement = document.createElement("h2");
             const dateElement = document.createElement("p");
             let currentParagraph = null;
@@ -25,7 +25,26 @@ async function loadBlog(){
             headlineElement.textContent = blogarticle.artikel_headline;
             dateElement.textContent = blogarticle.artikel_date;
             articleElement.appendChild(headlineElement);
+            articleElement.appendChild(dateElement); */
+
+            const articleElement = document.createElement("details");
+
+            const summaryElement = document.createElement("summary");
+            const summaryHeadline = document.createElement("h2");
+            summaryHeadline.classList.add("article-headline");
+            summaryHeadline.textContent = blogarticle.artikel_headline;
+
+            const dateElement = document.createElement("p");
+            dateElement.classList.add("article-date");
+            dateElement.textContent = blogarticle.artikel_date;
+
+            summaryElement.appendChild(summaryHeadline);
+            articleElement.appendChild(summaryElement);
             articleElement.appendChild(dateElement);
+
+            let currentParagraph = null;
+            let currentList = null;
+            let currentListItem = null;
 
             
 
