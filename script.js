@@ -12,33 +12,16 @@ async function loadBlog(){
         const container = document.getElementById("blog-container");
 
         data.forEach(blogarticle => {
-            /* const articleElement = document.createElement("article");
-            const headlineElement = document.createElement("h2");
-            const dateElement = document.createElement("p");
-            let currentParagraph = null;
-            let currentList = null;
-            let currentListItem = null;
-
-        
-            dateElement.classList.add("article-date");
-            headlineElement.classList.add("article-headline")
-            headlineElement.textContent = blogarticle.artikel_headline;
-            dateElement.textContent = blogarticle.artikel_date;
-            articleElement.appendChild(headlineElement);
-            articleElement.appendChild(dateElement); */
-
             const articleElement = document.createElement("details");
 
             const summaryElement = document.createElement("summary");
-            const summaryHeadline = document.createElement("h2");
-            summaryHeadline.classList.add("article-headline");
-            summaryHeadline.textContent = blogarticle.artikel_headline;
+            summaryElement.classList.add("article-headline");
+            summaryElement.textContent = blogarticle.artikel_headline;
 
             const dateElement = document.createElement("p");
             dateElement.classList.add("article-date");
             dateElement.textContent = blogarticle.artikel_date;
 
-            summaryElement.appendChild(summaryHeadline);
             articleElement.appendChild(summaryElement);
             articleElement.appendChild(dateElement);
 

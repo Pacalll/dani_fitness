@@ -230,40 +230,40 @@ nav a:focus {
   margin-bottom: var(--SPACING-XL);
 }
 
-.service-list, .service-target-group{
+.service-list{
     list-style: none;
     padding: 0;
     margin: var(--SPACING-M) 0;
 }
 
-.service-list li, .service-target-group li{
+.service-list li{
     display: flex;
     align-items: flex-start;
     gap: var(--SPACING-M);
     margin-bottom: var(--SPACING-L);
 }
 
-.service-list div, .service-target-group p {
+.service-list div{
     max-width: 100%;
     font-size: var(--SPACING-M);
     line-height: 1.6;
     color: var(--MAIN-FCOLOR)
 }
 
-.service-target-group p {
-    margin-top: var(--SPACING-XL);
-}
-
-.service-list li, .service-target-group li{
+.service-list li {
     margin-bottom: var(--SPACING-L);
     padding-left: var(--SPACING-L);
     position: relative; 
 }
 
-.service-list-bullet-img, .service-target-group-bullet-img{
+.service-list-bullet-img {
     width: 100px;
     height: auto;
     flex-shrink: 0;
+}
+
+details summary{
+    text-align: center;
 }
 
 .section-contact {
@@ -301,6 +301,12 @@ nav a:focus {
 .contact-card img {
     width: 32px;
     height: 32px;
+}
+
+.article-headline{
+    margin-top: var(--SPACING-M);
+    font-size: var(--SPACING-M);
+    font-weight: bolder;
 }
 
 .article-date {
