@@ -31,6 +31,7 @@ html {
 
 body {
     scroll-snap-type: y mandatory;
+    font-size: var(--SPACING-L);
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -42,7 +43,7 @@ h1 {
 }
 
 h2 {
-    font-size: var(--SPACING-L);
+    font-size: var(--SPACING-XL);
     text-decoration: underline;
     margin-bottom: var(--SPACING-S);
 }
@@ -245,7 +246,7 @@ nav a:focus {
 
 .service-list div{
     max-width: 100%;
-    font-size: var(--SPACING-M);
+    font-size: var(--SPACING-L);
     line-height: 1.6;
     color: var(--MAIN-FCOLOR)
 }
@@ -305,18 +306,18 @@ details summary{
 
 .article-headline{
     margin-top: var(--SPACING-M);
-    font-size: var(--SPACING-M);
+    font-size: var(--SPACING-L);
     font-weight: bolder;
 }
 
 .article-date {
-    font-size: 0.9em;
+    font-size: var(--SPACING-M);
     color: var(--MAIN-FCOLOR);
     margin-bottom: var(--SPACING-S);
 }
 
 .article-text {
-    font-size: var(--SPACING-M);
+    font-size: var(--SPACING-L);
     color: var(--MAIN-FCOLOR);
     line-height: 1.6;
 }
