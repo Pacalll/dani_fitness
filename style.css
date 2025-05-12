@@ -37,6 +37,12 @@ body {
     overflow-x: hidden;
 }
 
+details, summary{
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
 h1 {
     font-size: var(--SPACING-XL);
     margin-bottom: var(--SPACING-M);
