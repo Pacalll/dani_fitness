@@ -30,11 +30,11 @@ html {
 }
 
 body {
-    scroll-snap-type: y mandatory;
     font-size: var(--SPACING-L);
     display: flex;
     flex-direction: column;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -46,6 +46,12 @@ h2 {
     font-size: var(--SPACING-XL);
     text-decoration: underline;
     margin-bottom: var(--SPACING-S);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 ul,
@@ -369,6 +375,10 @@ details summary{
         --SPACING-L: 1.25rem;
         --SPACING-XL: 1.5rem;
         --SPACING-XXXL-N: -3rem;
+    }
+
+    .about-text{
+        margin-left: 0;
     }
 
     .service-list-bullet-img{
