@@ -86,6 +86,7 @@ async function loadBlog(){
                     currentList = null;
                 } else if (contentItem.type === "inline_link") {
                     const linkElement = document.createElement("a");
+                    linkElement.classList.add("article-link");
                     linkElement.href = contentItem.href;
                     linkElement.textContent = contentItem.href;
                     linkElement.target = "_blank";

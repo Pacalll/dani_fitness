@@ -5,14 +5,15 @@
 }
 
 :root {
-    --HEADER-BGCOLOR: #333;
-    --HEADER-FCOLOR: whitesmoke;
+    --HEADER-BGCOLOR: #7d4a97;
+    --HEADER-FCOLOR: #83d2cc;
     --ABOUT-TEXT-BGCOLOR: rgba(214, 219, 223, 0.8);
-    --ABOUT-TEXT-FCOLOR: black;
-    --MAIN-BGCOLOR: #d6eaf8;
-    --MAIN-FCOLOR: black;
+    --ABOUT-TEXT-FCOLOR: #7d4a97;
+    --MAIN-BGCOLOR: #fff8e6;
+    --MAIN-FCOLOR: #83d2cc;
     --CONTACTCARD-BGCOLOR: #88a0aa;
     --CONTACTCARD-FCOLOR: black;
+    --LINK-FCOLOR: black;
 
 
     --SPACING-S: 0.5rem;
@@ -37,6 +38,10 @@ body {
     overflow-x: hidden;
 }
 
+strong, p{
+    color: var(--MAIN-FCOLOR);
+}
+
 details, summary{
     max-width: 100%;
     overflow-wrap: break-word;
@@ -48,7 +53,12 @@ h1 {
     margin-bottom: var(--SPACING-M);
 }
 
+h3{
+    color: var(--MAIN-FCOLOR);
+}
+
 h2 {
+    color: var(--MAIN-FCOLOR);
     font-size: var(--SPACING-XL);
     text-decoration: underline;
     margin-bottom: var(--SPACING-S);
@@ -72,8 +82,8 @@ li {
 
 a:any-link {
     text-decoration: none;
-    color: var(--MAIN-FCOLOR)
 }
+
 
 header {
     position: fixed;
@@ -92,6 +102,11 @@ header {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    height: 10vh;
 }
 
 .menu-button {
@@ -316,7 +331,12 @@ details summary{
     height: 32px;
 }
 
+.contact-link{
+    color: var(--LINK-FCOLOR);
+}
+
 .article-headline{
+    color: var(--MAIN-FCOLOR);
     margin-top: var(--SPACING-M);
     font-size: var(--SPACING-L);
     font-weight: bolder;
@@ -339,6 +359,14 @@ details summary{
     height: auto;
     margin: var(--SPACING-M) 0;
     display: block;
+}
+
+.article-list-item{
+    color: var(--MAIN-FCOLOR);
+}
+
+.article-link{
+    color: var(--MAIN-FCOLOR);
 }
 
 .profilpic {
