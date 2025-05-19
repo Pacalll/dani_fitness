@@ -6,11 +6,11 @@
 
 :root {
     --HEADER-BGCOLOR: #7d4a97;
-    --HEADER-FCOLOR: #83d2cc;
+    --HEADER-FCOLOR: #185653;
     --ABOUT-TEXT-BGCOLOR: rgba(214, 219, 223, 0.8);
     --ABOUT-TEXT-FCOLOR: #7d4a97;
     --MAIN-BGCOLOR: #fff8e6;
-    --MAIN-FCOLOR: #83d2cc;
+    --MAIN-FCOLOR: #185653;
     --CONTACTCARD-BGCOLOR: #88a0aa;
     --CONTACTCARD-FCOLOR: black;
     --LINK-FCOLOR: black;
@@ -78,10 +78,18 @@ ol {
 
 li {
     line-height: 1.6;
+    color: var(--MAIN-FCOLOR)
 }
 
 a:any-link {
     text-decoration: none;
+}
+
+address {
+    color: var(--MAIN-FCOLOR)
+}
+address a{
+    color: var(--MAIN-FCOLOR);
 }
 
 
@@ -335,6 +343,16 @@ details summary{
     color: var(--LINK-FCOLOR);
 }
 
+.article-summary{
+    display: flex;
+    flex-direction: row;
+    margin: var(--SPACING-L);
+    align-items: center;
+    gap: var(--SPACING-XL);
+    cursor: pointer;
+
+}
+
 .article-headline{
     color: var(--MAIN-FCOLOR);
     margin-top: var(--SPACING-M);
@@ -352,6 +370,11 @@ details summary{
     font-size: var(--SPACING-L);
     color: var(--MAIN-FCOLOR);
     line-height: 1.6;
+}
+
+.article-header-img {
+    width: 250px;
+    height: 250px;
 }
 
 .article-img {
