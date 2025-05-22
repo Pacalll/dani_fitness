@@ -6,7 +6,7 @@
 
 :root {
     --HEADER-BGCOLOR: #7d4a97;
-    --HEADER-FCOLOR: #185653;
+    --HEADER-FCOLOR: #83d2cc;
     --ABOUT-TEXT-BGCOLOR: rgba(214, 219, 223, 0.8);
     --ABOUT-TEXT-FCOLOR: #7d4a97;
     --MAIN-BGCOLOR: #fff8e6;
@@ -477,7 +477,7 @@ details summary{
 
 @media (max-width: 900px) {
     
-
+    
 
     nav ul {
       flex-direction: column;
@@ -486,6 +486,10 @@ details summary{
 
     .service-slogan {
         font-size: var(--SPACING-M);
+    }
+
+    .article-summary{
+        flex-direction: column;
     }
   
     .article {
