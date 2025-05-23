@@ -7,8 +7,9 @@
 :root {
     --HEADER-BGCOLOR: #7d4a97;
     --HEADER-FCOLOR: #83d2cc;
-    --ABOUT-TEXT-BGCOLOR: rgba(214, 219, 223, 0.8);
+    --ABOUT-TEXT-BGCOLOR: rgba(214, 219, 223, 0.4);
     --ABOUT-TEXT-FCOLOR: #7d4a97;
+    --ABOUT-TEXT-TEXT-FCOLOR: black;
     --MAIN-BGCOLOR: #fff8e6;
     --MAIN-FCOLOR: #185653;
     --CONTACTCARD-BGCOLOR: #88a0aa;
@@ -242,6 +243,7 @@ nav a:focus {
 
 .about-container-pic{
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: var(--SPACING-M);
     font-size: var(--SPACING-L);
@@ -392,23 +394,41 @@ details summary{
     color: var(--MAIN-FCOLOR);
 }
 
-.profilpic {
+.about-pic {
     width: clamp(200px, 40vw, 500px);
     height: auto;
-    border-radius: 25%;
+    display: block;
+    border-radius: 35%;
     margin-bottom: var(--SPACING-M);
-    filter: brightness(90%);
+    filter: brightness(-100%);
 }
 
-.about-text {
-    position: relative;
-    z-index: 1;
+.about-text{
+    display: flex;
+    flex-direction: column;
     margin-left: var(--SPACING-XXXL-N); 
     background:  var(--ABOUT-TEXT-BGCOLOR);
     color: var(--ABOUT-TEXT-FCOLOR);
     padding: var(--SPACING-M);
     font-size: var(--SPACING-L);
     border-radius: 10px;
+}
+
+.about-text-text{
+    color: var(--ABOUT-TEXT-TEXT-FCOLOR);
+    text-align: left;
+    font-weight: bolder;
+
+}
+
+.about-text-keyword-container{
+    margin: var(--SPACING-L);
+    font-weight: bold;
+    color: var(--ABOUT-TEXT-FCOLOr);
+}
+
+.about-text-keyword{
+    margin: var(--SPACING-L);
 }
 
 .sectiondatenschutz h2 {
@@ -434,8 +454,7 @@ details summary{
         --SPACING-XXXL-N: -3rem;
     }
 
-    .about-text{
-        margin-left: 0;
+    .about-text-text{
     }
 
     .service-list-bullet-img{
@@ -490,7 +509,7 @@ details summary{
 
     .article-summary{
         flex-direction: column;
-    }
+    }f
   
     .article {
       padding: var(--SPACING-M);
