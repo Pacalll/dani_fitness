@@ -9,6 +9,7 @@
     --HEADER-FCOLOR: #83d2cc;
     --ABOUT-TEXT-BGCOLOR: rgba(214, 219, 223, 0.4);
     --ABOUT-TEXT-FCOLOR: #7d4a97;
+    --ABOUT-TEXT-KEYWORD-BGCOLOR: #7d4a97;
     --ABOUT-TEXT-TEXT-FCOLOR: black;
     --MAIN-BGCOLOR: #fff8e6;
     --MAIN-FCOLOR: #185653;
@@ -418,10 +419,11 @@ details summary{
     color: var(--ABOUT-TEXT-TEXT-FCOLOR);
     text-align: left;
     font-weight: bolder;
-
+    pointer-events: none; 
 }
 
 .about-text-keyword-container{
+    position: relative;
     margin: var(--SPACING-L);
     font-weight: bold;
     color: var(--ABOUT-TEXT-FCOLOr);
@@ -429,6 +431,12 @@ details summary{
 
 .about-text-keyword{
     margin: var(--SPACING-L);
+    background-color: var(--ABOUT-TEXT-KEYWORD-BGCOLOR);
+    color: #83d2cc;
+    border-radius: 20%;
+    padding: var(--SPACING-L);
+    z-index: 1000;
+
 }
 
 .sectiondatenschutz h2 {
