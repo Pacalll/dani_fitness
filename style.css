@@ -439,6 +439,7 @@ details summary{
     border-radius: 20%;
     padding: var(--SPACING-L);
     z-index: 1000;
+    border-radius: 5px;
 
 }
 
