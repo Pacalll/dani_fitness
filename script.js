@@ -120,7 +120,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const header = document.querySelector('header');
     
     menuButton.addEventListener('click', () => {
-        console.log("menu open")
         header.classList.toggle('open');
     })
 
