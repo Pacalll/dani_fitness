@@ -113,6 +113,26 @@ async function loadBlog(){
     }
 }
 
+
 document.addEventListener("DOMContentLoaded", () => {
     loadBlog();
+    const menuButton = document.querySelector('.menu-button');
+    const header = document.querySelector('header');
+    
+    menuButton.addEventListener('click', () => {
+        console.log("menu open")
+        header.classList.toggle('open');
+    })
+
+    document.addEventListener("click", (event) => {
+        if (header.classList.contains("open") && !header.contains(event.target)) {
+            header.classList.remove("open");
+        }
+    });
+
+    header.addEventListener("mouseenter", () => {
+        if (!header.classList.contains("open")) {
+            header.classList.add("open");
+        }
+    });
 });
