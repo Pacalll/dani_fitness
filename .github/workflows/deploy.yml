@@ -29,5 +29,5 @@ jobs:
           put -O /public_html/ style.css;
           put -O /public_html/ script.js;
           mirror -R --delete --verbose assets/ /public_html/assets/;
-          mirror -R --delete --verbose assets/ /public_html/images/;
+          mirror -R --delete --verbose images/ /public_html/images/;
           bye"
