@@ -1,0 +1,33 @@
+name: Deploy to Hetzner via SFTP
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sftp-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Install lftp
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
+      - name: Deploy via lftp
+        env:
+          SFTP_SERVER: ${{ secrets.SFTP_SERVER }}
+          SFTP_USERNAME: ${{ secrets.SFTP_USERNAME }}
+          SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
+        run: |
+          lftp -u "$SFTP_USERNAME","$SFTP_PASSWORD" sftp://$SFTP_SERVER -e "
+          set sftp:auto-confirm yes;
+          set ssl:verify-certificate no;
+          put -O /public_html/ index.html;
+          put -O /public_html/ blog.json;
+          put -O /public_html/ style.css;
+          put -O /public_html/ script.js;
+          mirror -R --delete --verbose assets/ /public_html/assets/;
+          mirror -R --delete --verbose assets/ /public_html/images/;
+          bye"
