@@ -13,25 +13,29 @@ async function loadBlog(){
 
         data.forEach(blogarticle => {
             const articleElement = document.createElement("details");
-
-            const summarysimg = document.createElement("img");
-            summarysimg.src = blogarticle.artikel_pic;
-            summarysimg.loading = "lazy";
-            summarysimg.classList.add("article-header-img");
-
+            const summaryElement = document.createElement("summary");
             const summaryZusammenfassung = document.createElement("p");
+            const dateElement = document.createElement("p");
+
+            if(blogarticle.artikel_pic){
+                const summarysimg = document.createElement("img");
+                summarysimg.src = blogarticle.artikel_pic;
+                summarysimg.loading = "lazy";
+                summarysimg.classList.add("article-header-img");
+                summaryElement.appendChild(summarysimg);
+            }
+            
+
+            
             summaryZusammenfassung.textContent = blogarticle.artikel_summary;
 
-            const summaryElement = document.createElement("summary");
+            
             summaryElement.classList.add("article-summary");
-/*             summaryElement.classList.add("article-headline");
-            summaryElement.textContent = blogarticle.artikel_headline; */
 
-            const dateElement = document.createElement("p");
             dateElement.classList.add("article-date");
             dateElement.textContent = blogarticle.artikel_date;
 
-            summaryElement.appendChild(summarysimg);
+            
             summaryElement.appendChild(summaryZusammenfassung);
             articleElement.appendChild(summaryElement);
             articleElement.appendChild(dateElement);
