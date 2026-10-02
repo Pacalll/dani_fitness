@@ -276,167 +276,273 @@
 
     ]
   },
-  { 
+  {
     "artikel_date": "2026-10-01",
-    "artikel_headline": "Muskelkater: Was du wissen musst, aber vielleicht nicht wissen willst",
-    "artikel_summary": "Muskelkater – der bittersüße Schmerz, der dir sagt, dass du gestern übermotiviert warst. Aber was genau passiert da in deinem Körper? Ist Muskelkater ein Zeichen für Gains oder nur eine fiese Nebenwirkung des Trainings? Und vor allem: Was hilft wirklich dagegen? Genau das klären wir hier!",
+    "artikel_headline": "Muskelkater: Tut weh, sagt aber wenig",
+    "artikel_summary": "Treppen werden zum Endgegner, Hinsetzen zur Mutprobe. Woher kommt Muskelkater wirklich, ist er ein Zeichen für gutes Training und was hilft nachweislich dagegen? Ein Blick in die Studienlage.",
     "artikel_content": [
-        {
-            "type": "text",
-            "content": "Du kennst es: Am Tag nach dem Training fühlst du dich wie ein frisch geborener Rehkalb auf Glatteis. Aber was genau passiert da in deinem Körper? Ist Muskelkater ein Zeichen für Gains oder nur eine fiese Nebenwirkung des Trainings? Und vor allem: Was hilft wirklich dagegen? Genau das klären wir hier!"
+      {
+        "type": "text",
+        "content": "Tag zwei nach dem Beintag. Du stehst oben an der Treppe und überlegst ernsthaft, ob das Geländer dein Gewicht hält. Hinsetzen fühlt sich an wie eine Kniebeuge mit Maximalgewicht, und Niesen ist ab sofort Risikosport. Willkommen beim Muskelkater. Die gute Nachricht: Er geht weg. Die schlechte: Über kaum ein Thema im Training wird so viel Unsinn erzählt. Zeit, aufzuräumen."
+      },
+      {
+        "type": "subheadline",
+        "content": "Was ist Muskelkater?"
+      },
+      {
+        "type": "text",
+        "content": "Im Fachjargon heißt das Ganze verzögert einsetzender Muskelschmerz, kurz DOMS (Delayed Onset Muscle Soreness). Verzögert, weil er nicht beim Training kommt, sondern sich hinterrücks anschleicht. Der Schmerz baut sich in den ersten 24 Stunden auf, ist nach 24 bis 72 Stunden am schlimmsten und nach etwa fünf bis sieben Tagen wieder verschwunden (Cheung et al., 2003). Das Brennen während eines harten Satzes ist übrigens etwas völlig anderes und nach ein paar Minuten vorbei."
+      },
+      {
+        "type": "subheadline",
+        "content": "Woher kommt der Schmerz?"
+      },
+      {
+        "type": "text",
+        "content": "Fangen wir mit dem Klassiker an: Milchsäure. Die ist es nicht. Laktat ist kurz nach dem Training wieder abgebaut, also lange bevor der Muskelkater überhaupt anfängt. Schon 1983 wurde das ziemlich elegant gezeigt. Bergablaufen produziert kaum Laktat, aber ordentlich Muskelkater. Flach laufen im gleichen Tempo treibt das Laktat höher, macht aber keinen Muskelkater (Schwane et al., 1983). Der Mythos ist also seit über 40 Jahren widerlegt und trotzdem nicht totzukriegen."
+      },
+      {
+        "type": "text",
+        "content": "Der eigentliche Auslöser sind vor allem exzentrische Bewegungen, also wenn dein Muskel unter Last länger wird. Beim Absenken in die Kniebeuge, beim Bergablaufen, beim langsamen Runterlassen der Hantel. Dabei entstehen winzige Schäden in der Muskelstruktur. Lange galt die einfache Rechnung Mikrorisse plus Entzündung gleich Schmerz. Ganz so simpel ist es aber nicht. Wie stark es wehtut, sagt erstaunlich wenig darüber aus, wie viel tatsächlich beschädigt ist (Nosaka et al., 2002). Einiges spricht dafür, dass Botenstoffe wie der Nervenwachstumsfaktor die Schmerzrezeptoren empfindlicher machen. Deshalb tut es vor allem bei Druck und Bewegung weh, in Ruhe dagegen kaum (Mizumura & Taguchi, 2016)."
+      },
+      {
+        "type": "text",
+        "content": "Und dann ist da noch die Faszie, also das Bindegewebe rund um den Muskel. Sie ist dicht mit Schmerzrezeptoren besetzt und reagiert nach exzentrischem Training offenbar empfindlicher als der Muskel selbst. Wilke und Behringer (2021) halten den Begriff Muskelkater deshalb sogar für irreführend, weil der Schmerz womöglich gar nicht hauptsächlich aus dem Muskel kommt. Es ist also kompliziert. Aber Milchsäure ist es nicht."
+      },
+      {
+        "type": "subheadline",
+        "content": "Drei Mythen, die sich hartnäckig halten"
+      },
+      {
+        "type": "subheadline",
+        "content": "Mythos 1: Muskelkater heißt, das Training war gut"
+      },
+      {
+        "type": "text",
+        "content": "Das ist der Mythos mit dem größten Schaden, weil er Leute dazu bringt, jedem Training hinterherzujagen, nach dem sie nicht mehr laufen können. In einer Studie trainierten zwei Gruppen über mehrere Wochen exzentrisch auf dem Ergometer. Die eine Gruppe wurde vorher behutsam herangeführt und hatte praktisch keinen Muskelkater, die andere startete direkt voll durch und litt. Am Ende hatten beide gleich viel Muskulatur und Kraft aufgebaut (Flann et al., 2011)."
+      },
+      {
+        "type": "text",
+        "content": "Spannend ist auch eine Arbeit von Damas und Kollegen (2016). Nach den ersten Einheiten war die Muskelproteinsynthese zwar deutlich erhöht, sagte das spätere Muskelwachstum aber nicht voraus. Erst als die Muskelschäden nach einigen Wochen abnahmen, hing sie tatsächlich mit dem Zuwachs zusammen. Reparieren ist eben nicht dasselbe wie Aufbauen. Muskelkater zeigt dir eher, dass dein Körper gerade aufräumt, nicht dass er gerade baut."
+      },
+      {
+        "type": "subheadline",
+        "content": "Mythos 2: Dehnen hilft gegen Muskelkater"
+      },
+      {
+        "type": "text",
+        "content": "Sorry an alle, die sich nach dem Training zehn Minuten in Dehnpositionen quälen. Ein Cochrane-Review kam zu dem Ergebnis, dass Dehnen vor oder nach dem Training den Muskelkater in den Folgetagen nur um wenige Punkte auf einer 100-Punkte-Skala senkt (Herbert et al., 2011). Das merkst du schlicht nicht. Schaden tut es aber auch nicht. Dehn also ruhig, wenn es dir guttut. Nur eben nicht wegen des Muskelkaters."
+      },
+      {
+        "type": "subheadline",
+        "content": "Mythos 3: Muskelkater haben nur Anfänger"
+      },
+      {
+        "type": "text",
+        "content": "Jeder, der nach Jahren im Gym zum ersten Mal bulgarische Split Squats ins Programm genommen hat, weiß es besser. Klar, der Körper lernt schnell. Schon nach einer einzigen Einheit fällt der Muskelkater bei derselben Belastung danach deutlich schwächer aus, das nennt sich Repeated-Bout-Effekt (McHugh, 2003). Der Schutz gilt aber vor allem für genau das, was du gemacht hast. Neue Übung, neuer Winkel, plötzlich doppeltes Volumen, und schon stehst du wieder ächzend an der Treppe. Erfahrung schützt dich also nicht, sie verschiebt nur die Schwelle."
+      },
+      {
+        "type": "subheadline",
+        "content": "So hältst du ihn klein"
+      },
+      {
+        "type": "text",
+        "content": "Ganz verhindern lässt sich Muskelkater nicht, und das musst du auch nicht. Aber du kannst ihn deutlich kleiner halten."
+      },
+      { "type": "ul_start" },
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Neue Bewegungen langsam integrieren:" },
+      { "type": "li_text", "content": " Der Repeated-Bout-Effekt ist dein bester Freund. Neue Übungen lieber mit zwei, drei lockeren Sätzen starten und über ein, zwei Wochen steigern. Dein Ego verkraftet das." },
+      { "type": "li_end" },
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Eine Stellschraube auf einmal:" },
+      { "type": "li_text", "content": " Mehr Gewicht, mehr Sätze und eine neue Übung in derselben Woche? Dann weißt du hinterher nicht mal, welcher Teil des Plans dich erledigt hat. Dreh lieber an einer Stellschraube und schau, wie sich die nächsten zwei, drei Tage anfühlen." },
+      { "type": "li_end" },
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Aufwärmen:" },
+      { "type": "li_text", "content": " Bringt messbar etwas, wenn auch nicht viel. In einer Studie mit rund 50 Teilnehmenden senkte ein Aufwärmen vor exzentrischer Belastung den Muskelkater leicht, ein Cool-down danach dagegen nicht (Law & Herbert, 2007)." },
+      { "type": "li_end" },
+      { "type": "ul_end" },
+      {
+        "type": "subheadline",
+        "content": "Und wenn er schon da ist?"
+      },
+      { "type": "ul_start" },
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Locker bewegen:" },
+      { "type": "li_text", "content": " Leichte Bewegung der betroffenen Muskeln, etwa lockeres Radfahren nach dem Beintag, lindert den Schmerz tatsächlich. In einer Studie sank er direkt danach um rund 40 Prozent. Der Effekt hielt aber nur kurz, und schneller erholt hat sich der Muskel dadurch nicht (Zainuddin et al., 2006). Fühlt sich also besser an, beschleunigt aber nichts. Als Grund, nicht den ganzen Tag auf dem Sofa zu liegen, reicht das trotzdem." },
+      { "type": "li_end" },
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Massage:" },
+      { "type": "li_text", "content": " Unter den gängigen Erholungsmethoden schneidet Massage in einer großen Metaanalyse beim Muskelkater am besten ab (Dupuy et al., 2018). Falls dein Partner oder Partnerin fragt, warum er dir die Waden kneten soll, hast du jetzt eine Quelle. Fest ist dabei nicht gleich besser. Wenn du während der Massage innerlich deinen Nachlass regelst, ist der Druck zu hoch." },
+      { "type": "li_end" },
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Wärme und Kälte:" },
+      { "type": "li_text", "content": " Beides lindert den Schmerz, aber nicht gleich lange. Kälte wie ein Eisbad hilft vor allem in den ersten 24 Stunden, Wärme wie eine Wärmepackung auch noch danach (Wang et al., 2021). Bei der Kälte gibt es außerdem einen Haken. Regelmäßige Kältebäder direkt nach dem Krafttraining haben in einer zwölfwöchigen Studie den Zuwachs an Muskelmasse und Kraft gebremst (Roberts et al., 2015). Ein Eisbad nach einem harten Wettkampf ist kein Drama. Wenn du aber Muskeln aufbauen willst, greif nach dem Training lieber zur Wärmflasche." },
+      { "type": "li_end" },
+      { "type": "li_start" },
+      { "type": "li_fat_inline", "content": "Eiweiß:" },
+      { "type": "li_text", "content": " Gegen den Muskelkater selbst hilft ein Proteinshake nicht. Das zeigen sowohl ein älteres Review als auch eine neuere Metaanalyse (Pasiakos et al., 2014; Pearson et al., 2023). Letztere fand aber einen anderen Vorteil. Wer rund ums Training Protein zu sich nahm, hatte in den Tagen danach mehr Kraft übrig. Der Shake macht die Treppe also nicht angenehmer, aber das nächste Training womöglich besser." },
+      { "type": "li_end" },
+      { "type": "ul_end" },
+      {
         },
-        {
-            "type": "subheadline",
-            "content": "Was ist Muskelkater?"
-        },
-        {
-            "type": "text",
-            "content": "Muskelkater, wissenschaftlich als verzögert einsetzender Muskelkater (Delayed Onset Muscle Soreness, DOMS) bekannt, ist das, was passiert, wenn deine Muskeln sagen: \"Ey, was war das gestern?!\" Die Schmerzen treten typischerweise 12 bis 24 Stunden nach ungewohnter oder intensiver Belastung auf, erreichen nach 24 bis 72 Stunden ihren Höhepunkt und verschwinden dann wieder. Während manche diesen Schmerz als Ehrenmedaille für hartes Training tragen, ist Muskelkater streng genommen nichts weiter als ein Zeichen, dass dein Körper mit einer neuen Belastung klarkommen muss."
-        },
-        {
-            "type": "subheadline",
-            "content": "Wie entsteht Muskelkater?"
-        },
-        {
-            "type": "text",
-            "content": "Nein, Muskelkater kommt nicht von Milchsäure. Das ist ein uralter Mythos, der sich hartnäckig hält – so wie der Glaube, dass man durch Bauchmuskeltraining ein Sixpack bekommt, während man übermäßig Pizza isst."
-        },
-        {
-            "type": "text",
-            "content": "Tatsächlich entstehen die Schmerzen durch mikroskopisch kleine Risse in den Muskelfasern, die vor allem bei exzentrischen Bewegungen (wenn der Muskel sich unter Spannung verlängert – z. B. beim Ablassen einer Kniebeuge oder langsamen Herablassen beim Bizepscurl) auftreten. Diese Mikroverletzungen lösen Entzündungsreaktionen aus, die dann für die typische Steifheit und den Schmerz sorgen. Neuere Forschungen zeigen sogar, dass nicht nur die Muskelfasern selbst, sondern auch das umgebende Bindegewebe (z. B. Faszien) eine große Rolle spielt – es ist also ein ganzes Team von Strukturen, die dir das Leben schwer machen."
-        },
-        {
-            "type": "subheadline",
-            "content": "Muskelkater-Mythen entlarvt"
-        },
-        {
-            "type": "subheadline",
-            "content": "Mythos 1: Muskelkater = gutes Training"
-        },
-        {
-            "type": "text",
-            "content": "Viele glauben, dass Muskelkater ein Zeichen für effektives Training ist. Aber nur weil du dich fühlst, als wärst du von einem Bus überfahren worden, heißt das nicht, dass du automatisch Muskeln aufbaust. Muskelwachstum kann auch ohne Muskelkater stattfinden – es kommt vielmehr auf Progression, Intensität und Erholung an."
-        },
-        {
-            "type": "subheadline",
-            "content": "Mythos 2: Dehnen hilft gegen Muskelkater"
-        },
-        {
-            "type": "text",
-            "content": "Sorry, aber nein. Dehnen vor oder nach dem Training verhindert Muskelkater nicht – und kann ihn in manchen Fällen sogar verschlimmern! Exzessives Dehnen zieht an den bereits geschädigten Strukturen und kann die Regeneration eher behindern als fördern. Stattdessen solltest du lieber auf ein gutes Warm-up setzen und dich langsam an höhere Belastungen gewöhnen."
-        },
-        {
-            "type": "subheadline",
-            "content": "Mythos 3: Muskelkater trifft nur Anfänger"
-        },
-        {
-            "type": "text",
-            "content": "Anfänger haben öfter Muskelkater, weil ihr Körper an viele Bewegungen nicht gewöhnt ist. Aber auch erfahrene Athleten können Muskelkater bekommen – vor allem, wenn sie neue Übungen ausprobieren oder ihre Trainingsintensität plötzlich steigern. Selbst die größten Fitnessgurus sind also nicht davor gefeit."
-        },
-        {
-            "type": "subheadline",
-            "content": "Muskelkater vorbeugen: So machst du’s richtig"
-        },
-        {
-            "type": "text",
-            "content": "Du kannst Muskelkater nicht komplett verhindern, aber du kannst ihn minimieren:"
-        },
-        {"type": "ul_start"},
-        {"type": "li_start"},
-        {"type": "li_fat_inline", "content": "Langsame Steigerung der Intensität:"},
-        {"type": "li_text", "content": " Dein Körper muss sich an neue Belastungen gewöhnen. Rom wurde nicht an einem Tag erbaut – und dein Deadlift-PR auch nicht."},
-        {"type": "li_end"},
-        {"type": "li_start"},
-        {"type": "li_fat_inline", "content": "Richtiges Aufwärmen:"},
-        {"type": "li_text", "content": " Ein ordentliches Warm-up bereitet Muskeln, Gelenke und das Nervensystem auf die Belastung vor und kann das Risiko für Muskelkater senken."},
-        {"type": "li_end"},
-        {"type": "li_start"},
-        {"type": "li_fat_inline", "content": "Ausreichende Regeneration:"},
-        {"type": "li_text", "content": " Schlaf, Ernährung und aktive Erholung sind deine besten Freunde. Wenn du dich wie ein Zombie fühlst, sind ein paar lockere Bewegungen oft hilfreicher als gar nichts zu tun."},
-        {"type": "li_end"},
-        {"type": "ul_end"},
-        {
-            "type": "subheadline",
-            "content": "Was hilft wirklich gegen Muskelkater?"
-        },
-        {
-            "type": "text",
-            "content": "Falls du bereits Muskelkater hast, kannst du Folgendes ausprobieren:"
-        },
-        {"type": "ul_start"},
-        {"type": "li_start"},
-        {"type": "li_fat_inline", "content": "Leichte Bewegung:"},
-        {"type": "li_text", "content": " Ja, Bewegung kann helfen! Spazierengehen, Radfahren oder eine lockere Yoga-Session regen die Durchblutung an und unterstützen die Regeneration."},
-        {"type": "li_end"},
-        {"type": "li_start"},
-        {"type": "li_fat_inline", "content": "Massage:"},
-        {"type": "li_text", "content": " Eine gute Massage kann die Durchblutung verbessern und Muskelverspannungen lösen. Aber Vorsicht: Zu viel Druck kann die Muskelschäden sogar verschlimmern."},
-        {"type": "li_end"},
-        {"type": "li_start"},
-        {"type": "li_fat_inline", "content": "Wärme & Kälte:"},
-        {"type": "li_text", "content": " Wärme lockert die Muskulatur, während Kälte (z. B. Eisbäder) Entzündungen kurzfristig lindern kann. Aber: Kälte kann langfristig die Muskelanpassung hemmen – also nicht übertreiben."},
-        {"type": "li_end"},
-        {"type": "li_start"},
-        {"type": "li_fat_inline", "content": "Ausreichend Eiweiß:"},
-        {"type": "li_text", "content": " Dein Körper braucht Proteine für die Reparaturprozesse. Eine proteinreiche Ernährung (z. B. mit ausreichend Leucin) kann die Regeneration beschleunigen."},
-        {"type": "li_end"},
-        {"type": "ul_end"},
-        {
-            "type": "subheadline",
-            "content": "Fazit: Muskelkater ist kein Maßstab für Erfolg"
-        },
-        {
-            "type": "text",
-            "content": "Muskelkater gehört zum Training dazu, aber er ist kein Indikator für ein gutes Workout. Viel wichtiger sind konstante Progression, eine sinnvolle Trainingsplanung und eine durchdachte Erholung. Also, keine Panik, wenn du nach einem Workout nicht am nächsten Tag watschelnd durch die Gegend läufst – das bedeutet nicht, dass dein Training umsonst war!"
-        },
-        {
-            "type": "text",
-            "content": "Wenn du Muskelkater hast: Regeneriere clever, bleib in Bewegung und gib deinem Körper die Zeit, sich anzupassen. Und wenn du gar keinen Muskelkater mehr hast? Dann ist es vielleicht an der Zeit, das Training auf das nächste Level zu bringen."
-        },
-        {
-            "type": "text",
-            "content": "Also, trainier smart – dein Daniel."
-        },
-        {
-            "type": "subheadline",
-            "content": "Quellen:"
-        },
-        {
-            "type": "text",
-            "content": "McDonald, L. (n.d.). DOMS and Muscle Growth. Body Recomposition."
-        },
-        {
-            "type": "inline_link",
-            "href": "https://bodyrecomposition.com/training/doms-muscle-growth"
-        },
-        {
-            "type": "text",
-            "content": "Cheung, K., Hume, P., & Maxwell, L. (2003). Delayed onset muscle soreness: Treatment strategies and performance factors. Sports Medicine, 33(2), 145-164."
-        },
-        {
-            "type": "inline_link",
-            "href": "https://pubmed.ncbi.nlm.nih.gov/12617692/"
-        },
-        {
-            "type": "text",
-            "content": "Medical News Today. (n.d.). Delayed onset muscle soreness (DOMS): Causes, recovery, and prevention."
-        },
-        {
-            "type": "inline_link",
-            "href": "https://www.medicalnewstoday.com/articles/delayed-onset-muscle-soreness"
-        },
-        {
-            "type": "text",
-            "content": "Healthline. (n.d.). Delayed onset muscle soreness (DOMS): Symptoms, causes, and treatment."
-        },
-        {
-            "type": "inline_link",
-            "href": "https://www.healthline.com/health/doms"
-        },
-        {
-            "type": "text",
-            "content": "Wilke, J., Schleip, R., & Klingler, W. (2018). Fascia in Sports and Movement. Elsevier."
-        }
+      {
+        "type": "subheadline",
+        "content": "Und jetzt?"
+      },
+      {
+        "type": "text",
+        "content": "Muskelkater ist ein schlechter Coach. Bei neuen Reizen meldet er sich laut, bei gut geplantem Training kaum noch. Ob dein Training funktioniert, erkennst du nicht daran, wie du die Treppe runterkommst, sondern daran, ob du über Wochen mehr Gewicht oder mehr Wiederholungen schaffst."
+      },
+      {
+        "type": "text",
+        "content": "Hast du gerade Muskelkater? Beweg dich locker, gönn dir Wärme oder eine Massage und gib dem Ganzen ein paar Tage. Hast du keinen? Glückwunsch, dein Körper hat sich angepasst. Das ist kein Grund, so lange draufzupacken, bis es wieder wehtut."
+      },
+      {
+        "type": "text",
+        "content": "Trainier smart. Dein Daniel"
+      },
+      {
+        "type": "subheadline",
+        "content": "Quellen"
+      },
+      {
+        "type": "text",
+        "content": "Cheung, K., Hume, P., & Maxwell, L. (2003). Delayed onset muscle soreness: Treatment strategies and performance factors. Sports Medicine, 33(2), 145–164."
+      },
+      {
+        "type": "inline_link",
+        "href": "https://doi.org/10.2165/00007256-200333020-00005"
+      },
+      {
+        "type": "text",
+        "content": "Damas, F., Phillips, S. M., Libardi, C. A., Vechin, F. C., Lixandrão, M. E., Jannig, P. R., Costa, L. A. R., Bacurau, A. V., Snijders, T., Parise, G., Tricoli, V., Roschel, H., & Ugrinowitsch, C. (2016). Resistance training-induced changes in integrated myofibrillar protein synthesis are related to hypertrophy only after attenuation of muscle damage. The Journal of Physiology, 594(18), 5209–5222."
+      },
+      {
+        "type": "inline_link",
+        "href": "https://doi.org/10.1113/JP272472"
+      },
+      {
+        "type": "text",
+        "content": "Dupuy, O., Douzi, W., Theurot, D., Bosquet, L., & Dugué, B. (2018). An evidence-based approach for choosing post-exercise recovery techniques to reduce markers of muscle damage, soreness, fatigue, and inflammation: A systematic review with meta-analysis. Frontiers in Physiology, 9, Article 403."
+      },
+      {
+        "type": "inline_link",
+        "href": "https://doi.org/10.3389/fphys.2018.00403"
+      },
+      {
+        "type": "text",
+        "content": "Flann, K. L., LaStayo, P. C., McClain, D. A., Hazel, M., & Lindstedt, S. L. (2011). Muscle damage and muscle remodeling: No pain, no gain? Journal of Experimental Biology, 214(4), 674–679."
+      },
+      {
+        "type": "inline_link",
+        "href": "https://doi.org/10.1242/jeb.050112"
+      },
+      {
+        "type": "text",
+        "content": "Herbert, R. D., de Noronha, M., & Kamper, S. J. (2011). Stretching to prevent or reduce muscle soreness after exercise. Cochrane Database of Systematic Reviews, 2011(7), Article CD004577."
+      },
+      {
+        "type": "inline_link",
+        "href": "https://doi.org/10.1002/14651858.CD004577.pub3"
+      },
+      {
+        "type": "text",
+        "content": "Law, R. Y. W., & Herbert, R. D. (2007). Warm-up reduces delayed onset muscle soreness but cool-down does not: A randomised controlled trial. Australian Journal of Physiotherapy, 53(2), 91–95."
+      },
+      {
+        "type": "inline_link",
+        "href": "https://doi.org/10.1016/S0004-9514(07)70041-7"
+      },
+      {
+        "type": "text",
+        "content": "McHugh, M. P. (2003). Recent advances in the understanding of the repeated bout effect: The protective effect against muscle damage from a single bout of eccentric exercise. Scandinavian Journal of Medicine & Science in Sports, 13(2), 88–97."
+      },
+      {
+        "type": "inline_link",
+        "href": "https://doi.org/10.1034/j.1600-0838.2003.02477.x"
+      },
+      {
+        "type": "text",
+        "content": "Mizumura, K., & Taguchi, T. (2016). Delayed onset muscle soreness: Involvement of neurotrophic factors. The Journal of Physiological Sciences, 66(1), 43–52."
+      },
+      {
+        "type": "inline_link",
+        "href": "https://doi.org/10.1007/s12576-015-0397-0"
+      },
+      {
+        "type": "text",
+        "content": "Nosaka, K., Newton, M., & Sacco, P. (2002). Delayed-onset muscle soreness does not reflect the magnitude of eccentric exercise-induced muscle damage. Scandinavian Journal of Medicine & Science in Sports, 12(6), 337–346."
+      },
+      {
+        "type": "inline_link",
+        "href": "https://doi.org/10.1034/j.1600-0838.2002.10178.x"
+      },
+      {
+        "type": "text",
+        "content": "Pasiakos, S. M., Lieberman, H. R., & McLellan, T. M. (2014). Effects of protein supplements on muscle damage, soreness and recovery of muscle function and physical performance: A systematic review. Sports Medicine, 44(5), 655–670."
+      },
+      {
+        "type": "inline_link",
+        "href": "https://doi.org/10.1007/s40279-013-0137-7"
+      },
+      {
+        "type": "text",
+        "content": "Pearson, A. G., Hind, K., & Macnaughton, L. S. (2023). The impact of dietary protein supplementation on recovery from resistance exercise-induced muscle damage: A systematic review with meta-analysis. European Journal of Clinical Nutrition, 77(8), 767–783."
+      },
+      {
+        "type": "inline_link",
+        "href": "https://doi.org/10.1038/s41430-022-01250-y"
+      },
+      {
+        "type": "text",
+        "content": "Roberts, L. A., Raastad, T., Markworth, J. F., Figueiredo, V. C., Egner, I. M., Shield, A., Cameron-Smith, D., Coombes, J. S., & Peake, J. M. (2015). Post-exercise cold water immersion attenuates acute anabolic signalling and long-term adaptations in muscle to strength training. The Journal of Physiology, 593(18), 4285–4301."
+      },
+      {
+        "type": "inline_link",
+        "href": "https://doi.org/10.1113/JP270570"
+      },
+      {
+        "type": "text",
+        "content": "Schwane, J. A., Watrous, B. G., Johnson, S. R., & Armstrong, R. B. (1983). Is lactic acid related to delayed-onset muscle soreness? The Physician and Sportsmedicine, 11(3), 124–131."
+      },
+      {
+        "type": "inline_link",
+        "href": "https://doi.org/10.1080/00913847.1983.11708485"
+      },
+      {
+        "type": "text",
+        "content": "Torres, P. A., Helmstetter, J. A., Kaye, A. M., & Kaye, A. D. (2015). Rhabdomyolysis: Pathogenesis, diagnosis, and treatment. The Ochsner Journal, 15(1), 58–69."
+      },
+      {
+        "type": "inline_link",
+        "href": "https://scholarlycommons.pacific.edu/phs-facarticles/535/"
+      },
+      {
+        "type": "text",
+        "content": "Wang, Y., Li, S., Zhang, Y., Chen, Y., Yan, F., Han, L., & Ma, Y. (2021). Heat and cold therapy reduce pain in patients with delayed onset muscle soreness: A systematic review and meta-analysis of 32 randomized controlled trials. Physical Therapy in Sport, 48, 177–187."
+      },
+      {
+        "type": "inline_link",
+        "href": "https://doi.org/10.1016/j.ptsp.2021.01.004"
+      },
+      {
+        "type": "text",
+        "content": "Wilke, J., & Behringer, M. (2021). Is \"delayed onset muscle soreness\" a false friend? The potential implication of the fascial connective tissue in post-exercise discomfort. International Journal of Molecular Sciences, 22(17), Article 9482."
+      },
+      {
+        "type": "inline_link",
+        "href": "https://doi.org/10.3390/ijms22179482"
+      },
+      {
+        "type": "text",
+        "content": "Zainuddin, Z., Sacco, P., Newton, M., & Nosaka, K. (2006). Light concentric exercise has a temporarily analgesic effect on delayed-onset muscle soreness, but no effect on recovery from eccentric exercise. Applied Physiology, Nutrition, and Metabolism, 31(2), 126–134."
+      },
+      {
+        "type": "inline_link",
+        "href": "https://doi.org/10.1139/h05-010"
+      }
     ]
   }
 ]
